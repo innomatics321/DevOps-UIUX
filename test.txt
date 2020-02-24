@@ -1,3 +1,4 @@
 hello
 test for tag
 test for tag2
+test for merge
