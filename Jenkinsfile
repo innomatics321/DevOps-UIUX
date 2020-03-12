@@ -1,10 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('clone') {
+    stage('initialize') {
       steps {
         git(url: 'https://github.com/innomatics321/DevOps-UIUX.git', branch: 'master')
-        bat 'compile'
+        echo 'This is a minimal pipeline'
       }
     }
 
