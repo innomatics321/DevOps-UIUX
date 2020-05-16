@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
+    stage('Initialize') {
       steps {
-        git(url: 'https://github.com/innomatics321/DevOps-UIUX.git', branch: 'master')
+        echo 'This is a minimal pipeline'
       }
     }
 
